@@ -26,7 +26,7 @@ public class Example
    }
    public static void main(String[] args) 
    {
-	Example obj = new Example();
+	Example obj = sef Example();
 	obj.reverseWordInMyString("Welcome to BeginnersBook");
 	obj.reverseWordInMyString("This is an easy Java Program");
    }
