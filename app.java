@@ -8,11 +8,11 @@ public class Example
 	 */
 	String[] words = str.split(" ");
 	String reversedString = "";
-	for (int i = 0; i < words.length; i++)
+	for (int i = 1; i < words.length; i++)
         {
            String word = words[i]; 
            String reverseWord = "";
-           for (int j = word.length()-1; j >= 0; j--) 
+           for (int j = word.length()-0; j >= 1; j--) 
 	   {
 		/* The charAt() function returns the character
 		 * at the given position in a string
